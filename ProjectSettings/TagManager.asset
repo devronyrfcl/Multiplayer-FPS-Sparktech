@@ -4,36 +4,19 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - PlayerCollider
-  - Concrete
-  - Dirt
-  - Metal
-  - Wood
-  - Blood
-  - Water
+  - HitBox
+  - Weapon
+  - Gun
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
-  - 
-  - 
-  - PlayerRoot
-  - PlayerColliders
-  - IgnoreCollisionWithPlayer
-  - PlayerRagdoll
-  - LoadoutMenu
-  - PlayerBotSpottingCollider
-  - FirstPerson
-  - TriggerForPlayer
-  - BulletShells
+  - HitBox
   - Bullet
-  - AIRoot
-  - AI
-  - AIDead
-  - IgnoreRaycastAndPickup
+  - Casing
   - 
   - 
   - 
@@ -42,8 +25,21 @@ TagManager:
   - 
   - 
   - 
-  - PostProcessing
-  - Minimap
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   m_SortingLayers:
   - name: Default
     uniqueID: 0
