@@ -1,0 +1,169 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fec25cd600ba4af4a8822347aedc3331, type: 3}
+  m_Name: Shotgun Controller Configuration
+  m_EditorClassIdentifier: 
+  m_WeaponInformationSettings:
+    m_WeaponName: Shotgun
+  m_AnimationSettings:
+    m_FireAnimName: Shotgun_Fire
+    m_ReloadAnimName: Reload
+    m_EquipAnimName: Shotgun_Draw
+    m_UnequipAnimName: Shotgun_Holster
+    m_WalkingBoolName: Walk
+    m_SprintingBoolName: Run
+    m_EquipAnimDuration: 0.49
+    m_UnequipAnimDuration: 0.49
+    m_ReloadStartTriggerName: Reload_Start
+    m_ReloadFinishTriggerName: Reload_Finished
+    m_AnimationTransitionSpeed: 6
+  m_FireModeSettings:
+    m_FireMode: 0
+    m_FireRate: 1
+    m_BurstModeCount: 0
+    m_BurstModeDelay: 0
+  m_BulletSettings:
+    m_BulletType: 0
+    m_ShotFragments: 6
+    m_HipSpread: 3.4
+    m_AimSpread: 2.2
+    m_ShootDistance: 100
+    m_bulletImpactForce: 500
+    m_ragdollImpactForce: 500
+  m_weaponRecoilSettings:
+    m_recoilFunction: 1
+    m_recoilEuler: {x: 6.2, y: 0.3, z: 1.72}
+    m_recoilTime: 12
+    m_recoilTimeReturn: 3
+  m_WeaponKickbackSettings:
+    m_KickbackFunction: 1
+    m_KickBackPositionAmount: {x: 0, y: 0.025, z: -0.2}
+    m_KickBackRotationAmount: {x: 0.62, y: 0, z: 0}
+    m_KickBackReturnSpeed: 8
+    m_KickBackAimStabilizationMultiplier: 0.3
+  m_ReloadSettings:
+    m_reloadType: 1
+    m_AutoReload: 1
+    m_ReloadDuration: 0.65
+    m_AmmoWarningOnBulletsLeft: 5
+    m_StartReloadDuration: 0.4
+  m_WeaponMotionSettings:
+    m_SprintFunction: 0
+    m_CrouchFunction: 1
+    m_BobFunction: 0
+    m_CrouchPosition: {x: -0.04, y: -0.01, z: 0}
+    m_CrouchRotation: {x: 0, y: 0, z: 22.34}
+    m_SprintPosition: {x: 0.12, y: -0.18, z: -0.12}
+    m_SprintRotation: {x: -27.86, y: 0, z: -36.37}
+    m_WeaponBobSettings:
+    - m_MoveState: 0
+      m_WeaponbobSpeed: 0
+      m_WeaponbobAmount: 0
+    - m_MoveState: 1
+      m_WeaponbobSpeed: 0
+      m_WeaponbobAmount: 0
+    - m_MoveState: 2
+      m_WeaponbobSpeed: 14
+      m_WeaponbobAmount: 0.008
+    - m_MoveState: 3
+      m_WeaponbobSpeed: 20
+      m_WeaponbobAmount: 0.025
+    - m_MoveState: 4
+      m_WeaponbobSpeed: 7
+      m_WeaponbobAmount: 0.002
+    - m_MoveState: 5
+      m_WeaponbobSpeed: 0
+      m_WeaponbobAmount: 0
+    m_CrouchSpeed: 6
+    m_SprintSpeed: 6
+  m_WeaponLeanSettings:
+    m_LeanFunction: 1
+    m_LeanPositionLeft: {x: 0, y: 0, z: 0}
+    m_LeanPositionRight: {x: 0, y: 0, z: 0}
+    m_LeanRotationAngle: 15
+    m_LeanRotationAngleSpeed: 100
+    m_LeanPositionAngleSpeed: 0
+  m_weaponSwaySettings:
+    m_SwayFunction: 1
+    m_swayMultiplier: 1.5
+    m_swayMultiplerAim: 1
+    m_swaySmoothness: 8
+  m_weaponTiltSettings:
+    m_tiltFunction: 1
+    m_tiltAngle: 7
+    m_tiltSmoothness: 5
+  m_WeaponJumpLandSettings:
+    m_jumpLandFunction: 1
+    m_jumpPosition: {x: 0, y: -0.03, z: 0}
+    m_jumpRotation: {x: -3.38, y: 0, z: 0.5}
+    m_landPosition: {x: -0.01, y: -0.04, z: 0}
+    m_landRotation: {x: 2, y: -0.32, z: 5}
+    m_effectDuration: 0.2
+    m_effectDurationReturn: 8
+  m_weaponAimSettings:
+    m_aimFunction: 1
+    m_hipPosition: {x: -0.13, y: 0.05, z: -0.19}
+    m_hipRotation: {x: 0, y: 0, z: 6}
+    m_aimPosition: {x: -0.192, y: 0.15, z: -0.22}
+    m_aimRotation: {x: 0, y: 0, z: 0}
+    m_aimSpeed: 10
+    m_aimSpeedReturn: 5
+    m_aimFOV: 50
+    m_aimFOVSpeed: 8
+    m_AimResetAfterSprintingSpeed: 7
+  m_weaponScopeSettings:
+    m_scopeFunction: 0
+    m_scopeTexture2D: {fileID: 2800000, guid: a70caf943697aef4a961e8379ed1d3b2, type: 3}
+    m_scopeNearAimPosition: 0.02
+  m_WeaponSound:
+    m_AudioClips:
+    - {fileID: 8300000, guid: f765dc9a5c7fffc419478a2a06cbb03f, type: 3}
+    - {fileID: 8300000, guid: 19ba9e378a743ee48ba82066b78e8800, type: 3}
+    - {fileID: 8300000, guid: 557fe727d412ed64d9e9928684333b39, type: 3}
+    m_FireSoundName: Shotgun Shoot
+    m_ReloadSoundName: 
+    m_EquipSoundName: 
+    m_UnequipSoundName: 
+    m_BodyImpactSoundName: Hitmarker sound
+    m_EnemyKilledSoundName: ChaChingSound
+    m_FireSoundVolume: 1
+    m_ReloadSoundVolume: 1
+    m_EquipSoundVolume: 1
+    m_UnequipSoundVolume: 1
+    m_BodyImpactVolume: 0.15
+    m_EnemyKilledVolume: 0.25
+  m_weaponFXSettings:
+    m_muzzleflashFunction: 1
+    m_shellejectFunction: 1
+    m_BulletTrailFunction: 1
+    m_muzzleFlash: {fileID: 1000010254994808, guid: 0d17761db56c25347931b410739c6269, type: 3}
+    m_muzzleLifetime: 0.1
+    m_bulletShell: {fileID: 4169656390504713952, guid: 13cfcf93fde00244ba990a6a4a94d4d5, type: 3}
+    m_shellLifeTime: 3
+    m_shellAfterTime: 0.7
+    m_shellEjectForce: 2.5
+    m_shellStartRotation: {x: 0, y: -90, z: 0}
+    m_shellRandomRotation: {x: 35, y: 0, z: 0}
+    m_BulletTrailPrefab: {fileID: 1930985349805526, guid: d2ec70c814159504cb3e12e99b00b151, type: 3}
+  m_weaponCrosshairSettings:
+    m_CrosshairIncreaseSize: 15
+  m_weaponDamageEffectSettings:
+    m_bodyImpact: {fileID: 339667975928461986, guid: e8ee288a2139f7c4aa4405509c61c2c9, type: 3}
+  m_WeaponDamageParts:
+  - m_bodyPartType: 0
+    m_weaponDamage: 35
+  - m_bodyPartType: 1
+    m_weaponDamage: 15
+  - m_bodyPartType: 2
+    m_weaponDamage: 12
+  - m_bodyPartType: 3
+    m_weaponDamage: 11

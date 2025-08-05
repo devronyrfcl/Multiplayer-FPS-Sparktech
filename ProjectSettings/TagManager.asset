@@ -3,20 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - HitBox
-  - Weapon
-  - Gun
+  tags: []
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Player
+  - 
   - Water
   - UI
-  - HitBox
-  - Bullet
-  - Casing
+  - Weapon
+  - Player Root
+  - Player Ragdoll
   - 
   - 
   - 

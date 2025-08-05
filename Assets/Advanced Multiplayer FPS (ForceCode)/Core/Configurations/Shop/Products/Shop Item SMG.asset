@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64d036b37ad8acb40ae77ff23222e2fd, type: 3}
+  m_Name: Shop Item SMG
+  m_EditorClassIdentifier: 
+  m_ItemName: SMG
+  m_ItemDescription: Fast gun fight for quick hands
+  m_ItemPrice: 340
+  m_ItemIndex: 0
+  m_ItemType: 1
+  m_ItemTexture: {fileID: 2800000, guid: 4f5321c2aeaf2f7419d5b5113b0eee39, type: 3}
+  m_LoadoutWeapon: {fileID: 11400000, guid: 93354025e6dd24f45b0b4891842c5fcc, type: 2}
+  m_IsPurchased: 1

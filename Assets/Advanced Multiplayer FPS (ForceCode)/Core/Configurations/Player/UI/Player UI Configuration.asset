@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 693d0611a29749e4ba2470b9cdd9c476, type: 3}
+  m_Name: Player UI Configuration
+  m_EditorClassIdentifier: 
+  m_BloodyScreenFeature: 1
+  m_DamageIndicatorFeature: 1
+  m_HitmarkerFeature: 1
+  m_CrosshairFeature: 0
+  m_BloodyScreenTime: 3
+  m_DamageIndicatorTime: 3
+  m_HitmarkerTime: 1
+  m_HitmarkerDefaultColor: {r: 1, g: 1, b: 1, a: 1}
+  m_HitmarkerKilledEnemyColor: {r: 1, g: 0, b: 0, a: 1}
+  m_HitmarkerRandomRotation: 20
+  m_HitmarkerRotationReturnSpeed: 6
+  m_DefaultAmmunationColor: {r: 1, g: 1, b: 1, a: 1}
+  m_WarningAmmunationColor: {r: 1, g: 0.505315, b: 0, a: 1}
+  m_EmptyAmmunationColor: {r: 1, g: 0, b: 0, a: 1}
+  m_DefaultHealthColor: {r: 1, g: 1, b: 1, a: 1}
+  m_WarningHealthColor: {r: 1, g: 0, b: 0, a: 1}
+  m_CrosshairShootReturnSpeed: 0.1
+  m_CrosshairStates:
+  - m_MoveState: 0
+    m_CrosshairSize: 135
+    m_CrosshairAdjustSpeed: 10
+    m_CrosshairRotation: 0
+    m_CrosshairRotationAdjustSpeed: 0
+  - m_MoveState: 1
+    m_CrosshairSize: 300
+    m_CrosshairAdjustSpeed: 10
+    m_CrosshairRotation: 0
+    m_CrosshairRotationAdjustSpeed: 0
+  - m_MoveState: 2
+    m_CrosshairSize: 185
+    m_CrosshairAdjustSpeed: 10
+    m_CrosshairRotation: 0
+    m_CrosshairRotationAdjustSpeed: 0
+  - m_MoveState: 3
+    m_CrosshairSize: 250
+    m_CrosshairAdjustSpeed: 10
+    m_CrosshairRotation: 0
+    m_CrosshairRotationAdjustSpeed: 0
+  - m_MoveState: 4
+    m_CrosshairSize: 105
+    m_CrosshairAdjustSpeed: 10
+    m_CrosshairRotation: 0
+    m_CrosshairRotationAdjustSpeed: 0
+  - m_MoveState: 5
+    m_CrosshairSize: 115
+    m_CrosshairAdjustSpeed: 10
+    m_CrosshairRotation: 0
+    m_CrosshairRotationAdjustSpeed: 0

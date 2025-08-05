@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b5132638cdbd7b41978cfaf274a934e, type: 3}
+  m_Name: Camera Configuration
+  m_EditorClassIdentifier: 
+  m_MoveCameraSettings:
+  - m_MoveState: 0
+    m_CameraFOV: 60
+    m_HeadbobSpeed: 0
+    m_HeadbobAmount: 0
+  - m_MoveState: 5
+    m_CameraFOV: 62
+    m_HeadbobSpeed: 0
+    m_HeadbobAmount: 0
+  - m_MoveState: 2
+    m_CameraFOV: 60
+    m_HeadbobSpeed: 16
+    m_HeadbobAmount: 0.16
+  - m_MoveState: 3
+    m_CameraFOV: 62
+    m_HeadbobSpeed: 19
+    m_HeadbobAmount: 0.22
+  - m_MoveState: 1
+    m_CameraFOV: 60
+    m_HeadbobSpeed: 0
+    m_HeadbobAmount: 0
+  - m_MoveState: 4
+    m_CameraFOV: 59
+    m_HeadbobSpeed: 11
+    m_HeadbobAmount: 0.08
+  m_CameraGeneralSettings:
+    m_MinMouseY: 80
+    m_MaxMouseY: 80
+    m_hipSensitivity: 1
+    m_aimSensitivity: 0.5
+    m_cameraFOV: 60
+    m_CameraFOVSpeed: 5
+  m_CameraJumpLandSettings:
+    m_jumpLandFunction: 1
+    m_jumpPosition: {x: 0, y: 0, z: 0}
+    m_jumpRotation: {x: -1.5, y: 0, z: 0.5}
+    m_landPosition: {x: 0, y: 0, z: 0}
+    m_landRotation: {x: 3, y: 0.3, z: 0.5}
+    m_effectDuration: 0.2
+    m_effectDurationReturn: 6
+  m_CameraHitReactionSettings:
+    m_CameraHitForce: 2
+    m_CameraHitDuration: 0.15
+    m_CameraHitDamping: 8
+  m_CameraLeanSettings:
+    m_LeanFeature: 1
+    m_LeanMoveAngle: 0.35
+    m_LeanRotationAngle: 5
+    m_LeanAngleSpeed: 25
+    m_LeanRate: 5
+    m_MaxLeanAngleAnimator: 1
+    m_AnimatorLeanChangeSpeed: 5

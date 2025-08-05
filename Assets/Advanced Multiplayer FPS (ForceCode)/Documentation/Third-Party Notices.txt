@@ -1,0 +1,26 @@
+Credits and Third Party notices:
+
+We want to thank everyone who gave us permission to use license free assets. See the notices below which assets are used in this package.
+
+[Third-party assets]
+
+Photon 2 Networking: This package uses Photon 2 Networking as a dependency for the networking solution. Photon 2 Networking is licensed under the Asset Store EULA and is available for free on the Asset Store 
+
+Jura-Medium Font: This package uses Jura-Medium font from Photon 2 Networking for the UI text. Jura-Medium is licensed under the SIL Open Font License and is included in Photon 2 Networking.
+
+Environment models: All environment buildings, ground textures, and props in the game prototype scene: All assets in the prototype game scene are lincesed under guidelines by DevAssets. Thanks to Brackeys for permission to use.
+
+Weapon models: Pistol, sniper, shotgun, and smg model: These assets are provided by Maksim Bugrimov for demo purpose. Thanks to Maksim Bugrimov (highly recommended) for permission to use.
+
+Audio: Weapon and footstep sounds: These sounds are licensed under Creative Commons 0 licenses and are available on FreeSound. Other sounds are created by ourselves.
+
+Other assets: 3D Models (Character), animations, UI, and VFX particles are made by ourselves.
+
+Graphics: Post Processing effects used from Unity packages.
+
+For more information about the licenses we described above, please visit the website links.
+
+[https://assetstore.unity.com/packages/tools/network/pun-2-free-119922]
+[https://devassets.com/ | https://devassets.com/guidelines/]
+[https://assetstore.unity.com/publishers/6845 | https://assetstore.unity.com/packages/3d/props/weapons/pbr-weapons-pack-96690] -> AUTHORIZED WITH HOLDING A LICENSE!!
+[https://freesound.org/]
