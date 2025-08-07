@@ -26,13 +26,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 313203939}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8563434047993994446}
-  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &313203941
 MonoBehaviour:
@@ -97,6 +97,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 358093206406553814, guid: 1711848c311a7e84a8d4e466405d6c0c, type: 3}
@@ -336,6 +337,36 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8563434048566185918}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 5217620020292305502, guid: 1711848c311a7e84a8d4e466405d6c0c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 313203940}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5217620020292305509, guid: 1711848c311a7e84a8d4e466405d6c0c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 270370582642960338}
+    - targetCorrespondingSourceObject: {fileID: 5217620020292305509, guid: 1711848c311a7e84a8d4e466405d6c0c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3714865847120627326}
+    - targetCorrespondingSourceObject: {fileID: 5217620020292305509, guid: 1711848c311a7e84a8d4e466405d6c0c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8623701681319591038}
+    - targetCorrespondingSourceObject: {fileID: 5217620020292305509, guid: 1711848c311a7e84a8d4e466405d6c0c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8694968001494921660}
+    - targetCorrespondingSourceObject: {fileID: 4947727635779911240, guid: 1711848c311a7e84a8d4e466405d6c0c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1080387897}
+    - targetCorrespondingSourceObject: {fileID: 4947727635779911240, guid: 1711848c311a7e84a8d4e466405d6c0c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1163291204}
+    - targetCorrespondingSourceObject: {fileID: 5217620020959818916, guid: 1711848c311a7e84a8d4e466405d6c0c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1427789284567579235}
+    - targetCorrespondingSourceObject: {fileID: 5217620020654856100, guid: 1711848c311a7e84a8d4e466405d6c0c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6281219976909228065}
   m_SourcePrefab: {fileID: 100100000, guid: 1711848c311a7e84a8d4e466405d6c0c, type: 3}
 --- !u!95 &2863717947364433944 stripped
 Animator:
